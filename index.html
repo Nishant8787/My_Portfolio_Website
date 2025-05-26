@@ -1,45 +1,18 @@
-<form method="POST" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
-    {% csrf_token %}
-    <h1 style="text-align: center; color: #333;">Lungs Prediction</h1>
-    <table style="width: 100%; border-collapse: collapse;">
-         <tr style="background-color: #f9f9f9;">
-            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Age</th>
-            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="inp1" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></td>
-        </tr>
-        <tr>
-            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Gender</th>
-            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="inp2" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></td>
-        </tr>
-        <tr style="background-color: #f9f9f9;">
-            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Smoking</th>
-            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="inp3" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></td>
-        </tr>
-        <tr>
-            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Chronic Disease</th>
-            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="inp4" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></td>
-        </tr>
-        <tr style="background-color: #f9f9f9;">
-            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Cough</th>
-            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="inp5" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></td>
-        </tr>
-        <tr>
-            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Shortness of Breath</th>
-            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="inp6" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></td>
-        </tr>
-        <tr style="background-color: #f9f9f9;">
-            <th style="padding: 10px; text-align: left; border-bottom: 1px solid #ddd;">Fever</th>
-            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="inp7" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></td>
-        </tr>
-        <tr>
-            <td colspan="2" style="text-align: center; padding: 10px;">
-                <button type="submit" name="submit" style="padding: 10px 20px; background-color: #007BFF; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" style="padding: 10px; text-align: center;">
-                <div>{{ res }}</div>
-                <div>{{ accuracy }}</div>
-            </td>
-        </tr>
-    </table>
-</form>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Software Engineer & ML Developer</title>
+    <meta name="description" content="Professional portfolio showcasing software engineering and machine learning projects." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+>>>>>>> 06f5fe4 (second commit)
