@@ -69,8 +69,8 @@ const ContactSection: React.FC = () => {
               <div className="flex space-x-4">
                 <a
                   href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target="github.com/Nishant8787"
+                  rel="github.com/Nishant8787"
                   className="p-2 bg-white dark:bg-gray-700 rounded-full text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 shadow-md transition-colors"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -80,8 +80,8 @@ const ContactSection: React.FC = () => {
                 
                 <a
                   href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target="www.linkedin.com/in/nisanta-nath"
+                  rel="www.linkedin.com/in/nisanta-nath"
                   className="p-2 bg-white dark:bg-gray-700 rounded-full text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 shadow-md transition-colors"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

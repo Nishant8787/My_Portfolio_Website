@@ -72,18 +72,18 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start">
                 <span className="mr-3">📍</span>
-                <span>San Francisco, CA</span>
+                <span>bangalore, India</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">📧</span>
                 <a href="mailto:contact@example.com" className="hover:text-white transition-colors">
-                  contact@example.com
+                  nisantanath961@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">📱</span>
-                <a href="tel:+15551234567" className="hover:text-white transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+91 6909954915" className="hover:text-white transition-colors">
+                  +91 6909954915
                 </a>
               </li>
             </ul>
@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
           </p>
           
           <p className="text-gray-400 flex items-center mt-4 md:mt-0">
-            Made with <Heart size={16} className="mx-1 text-red-500" /> by Me
+            Made with <Heart size={16} className="mx-1 text-red-500" /> by Nisanta Nath
           </p>
         </div>
       </div>

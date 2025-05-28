@@ -190,7 +190,7 @@ const HeroSection: React.FC = () => {
                 }}
               >
                 <img 
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" 
+                  src="profiledp.jpeg" 
                   alt="Professional Portrait" 
                   className="w-full h-full object-cover"
                 />

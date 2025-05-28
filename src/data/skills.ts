@@ -15,12 +15,9 @@ export const skills: Skill[] = [
   { name: 'Node.js', icon: 'server', category: 'backend', level: 4 },
   { name: 'PostgreSQL', icon: 'database', category: 'backend', level: 4 },
   { name: 'RESTful APIs', icon: 'webhook', category: 'backend', level: 4 },
-  { name: 'GraphQL', icon: 'network', category: 'backend', level: 3 },
   
   // ML/AI
   { name: 'Machine Learning', icon: 'brain', category: 'ml', level: 4 },
-  { name: 'Deep Learning', icon: 'network', category: 'ml', level: 4 },
-  { name: 'TensorFlow', icon: 'activity', category: 'ml', level: 4 },
   { name: 'scikit-learn', icon: 'bar-chart', category: 'ml', level: 5 },
   { name: 'Data Analysis', icon: 'chart', category: 'ml', level: 4 },
   { name: 'Computer Vision', icon: 'eye', category: 'ml', level: 3 },

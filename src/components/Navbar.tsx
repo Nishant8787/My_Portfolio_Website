@@ -60,10 +60,12 @@ const Navbar: React.FC = () => {
                 {link.title}
               </Link>
             ))}
-            <Button variant="primary" size="sm">
+            <a href="/Nisanta.nath.pdf" download>
+             <Button variant="primary" size="sm">
               <Download size={16} className="mr-2" />
               Resume
             </Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -102,10 +104,12 @@ const Navbar: React.FC = () => {
                   {link.title}
                 </Link>
               ))}
-              <Button variant="primary" size="sm" className="w-full justify-center">
+              <a href="/Nisanta.nath.pdf" download>
+                <Button variant="primary" size="sm" className="w-full justify-center">
                 <Download size={16} className="mr-2" />
                 Resume
               </Button>
+              </a>
             </div>
           </motion.div>
         )}
